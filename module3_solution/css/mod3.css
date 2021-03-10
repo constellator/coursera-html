@@ -1,0 +1,137 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: tomato;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-left: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+h1.text-center {
+  margin-bottom: 10px;
+}
+
+
+#header-nav {
+    background-color: #0c9;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand h1 { 
+
+  color: #337c40;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  background-color: #0c9;
+  margin-top: 10px;
+}
+
+#nav-list {
+  background-color: #cff;
+}
+
+.navbar-nav {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#nav-list a {
+  color: #1c9568;
+}
+
+#nav-list a:hover {
+  background: #AAE7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid  #033;
+}
+
+
+
+div#main-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-cell {
+  min-height: 700px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #f5fbff;
+  color: black;
+}
+
+
+ul hr {
+  border-top: 1px solid #ccc;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .collapse.in {
+    display: none;
+    
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .collapse.in {
+  display: none;
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .collapse.in {
+  display: none;
+}
+}
+
+
+/********** xxs only **********/
+@media (max-width: 767px) {
+    .navbar-brand h1 { 
+        font-size: 5vw; 
+    }
+
+    #collapsable-nav a { 
+        font-size: 1.2em;
+    }
+
+}
+
+/********** xxxs only **********/
+@media (max-width: 479px) {
+        .navbar-brand h1 {
+            font-size: 7vw;
+        }
+
+    .navbar-header button.navbar-toggle {
+        margin-top: 15px;
+    }
+}
